@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exe2 Bagus Satrio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: aqua;
+      background-image: url("g1.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 150vh;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 100px;
+      border-radius: 10px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+
+    #video {
+      width: 100%;
+      max-width: 500px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    #gambar {
+      width: 100%;
+      max-width: 500px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .survey-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .survey-button button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .survey-button button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Venesia</h1>
+    
+    <video id="video" controls>
+      <source src="v1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p>Venesia adalah sebuah destinasi wisata yang menarik dan memukau di dunia. Terletak di Italia, Venesia merupakan kota yang unik dengan pesonanya yang tak tertandingi. Kota ini terkenal dengan sistem kanal yang rumit dan jaringan jalanan airnya yang melingkari bangunan-bangunan bersejarah yang indah.</p>
+    
+    <img id="gambar" src="g1.jpg" alt="Gambar">
+    <p>Salah satu daya tarik utama Venesia adalah suasana romantik dan atmosfer yang romantis. Kota ini sering dijuluki sebagai "Kota Cinta" dan menjadi destinasi impian bagi pasangan yang ingin merayakan momen istimewa mereka. Suasana yang tenang dan pemandangan yang memukau, dengan jembatan-jembatan elegan yang melintasi kanal-kanal, menciptakan suasana yang tak terlupakan bagi para pengunjung.</p>
+    
+    <div class="survey-button">
+      <button onclick="location.href='halaman-kedua.html'">Survey</button>
+    </div>
+  </div>
+</body>
+</html>
